@@ -55,21 +55,24 @@
         <h2>Your Personalized Survey Feed</h2>
         <div class="filters">
           <button class="filter-button active" data-filter="all">All</button>
-<button class="filter-button" data-filter="department">By Department</button>
-<button class="filter-button" data-filter="level">By Academic Level</button>
+          <button class="filter-button" data-filter="department">By Department</button>
+          <button class="filter-button" data-filter="level">By Academic Level</button>
         </div>
         <div class="survey-list">
-          <div class="survey-item department">
+          <div class="survey-item department" data-department="computer-science">
             <h3>Sample Survey in Computer Science</h3>
             <p>Description of Computer Science Survey</p>
+            <small class="survey-author">By: Prof. Alan Turing (CS Dept)</small>
           </div>
-          <div class="survey-item level">
+          <div class="survey-item level" data-level="freshman">
             <h3>Sample Survey for Freshmen</h3>
             <p>Description of Freshmen Survey</p>
+            <small class="survey-author">By: Student Affairs Office</small>
           </div>
-          <div class="survey-item department">
+          <div class="survey-item department" data-department="mathematics">
             <h3>Sample Survey in Mathematics</h3>
             <p>Description of Mathematics Survey</p>
+            <small class="survey-author">By: Math Society</small>
           </div>
         </div>
       </section>
